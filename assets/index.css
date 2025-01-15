@@ -1,0 +1,22 @@
+#sectionOne{
+    background-image: url(../assets/imgs/about-2.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#offcanvasRightLabel{
+    font-size: 15px;
+    font-family: Inter;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+    font-family: "Inter", serif;
+    color: rgb(163, 23, 23);
+    font-size: 24px;
+
+}
+
