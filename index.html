@@ -15,29 +15,31 @@
     <link rel="stylesheet" href="./assets/index.css">
 </head>
     <body >
+      <div class="top container-fluid col-12">
+
         <!-- header start -->
-          <div class="header-middle">
-            <header class=" container d-flex gap-4 " style="padding: 31px 0; " >    
+          <div class="header-middle d-flex flex-wrap " style="background-color: #f2f2f2;"  >
+            <header class=" container d-flex align-items-center justify-content-between gap-4 " style="padding: 31px 0; position: sticky; width: 100%; height: 10vh; z-index: 50;" >    
               <!--header left--> 
-              <div class="header-left ">
+              <div class="header-left d-flex " style="gap: 2rem;">
                   <!--menu-icon start-->
-                  <div class="menu-icon ">
-                    <img src="./menu-iconassets/imgs/menu.png" style="width: 15;" alt=""
+                  <div class="menu-icon  ">
+                    <img src="./assets/imgs/menu.png" width="42" height="37" alt=""
 
                      data-bs-toggle="offcanvas"
-                      href="#offcanvasExample" 
+                      href="#offcanvasExample"  
                       role="button"
                        aria-controls="offcanvasExample" >
                    
                      <!-- </a> Link with href</a>  -->
                      
                      <div class="offcanvas offcanvas-start" 
-                     style="padding: 190px 68px 190px 68px;"
+                     style="padding: 190px 68px 190px 68px; z-index: 5000;"
                       tabindex="-1" 
                       id="offcanvasExample"
                        aria-labelledby="offcanvasExampleLabel position-static">
        
-                         <nav>
+                         <nav class="text-decoration-none">
                            <a href="">Home</a>
                            <a href="">Shop</a>
                            <a href="">product</a>
@@ -50,7 +52,7 @@
       
                     <!--search start-->
                     <div class="search-icon">
-                      <img src="./assets/imgs/loupe.png "width="15" height="15" class="mt-2"
+                      <img src="./assets/imgs/loupe.png "width="22" height="20" class="mt-2"
                       
                       type="button"
                        data-bs-toggle="offcanvas" 
@@ -71,20 +73,177 @@
                    
                    <!--search end-->
               </div>
-            
-    
-                  <!--h1 > nooni-->
-                  <img src="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/logo.png"width="100" alt="Nooni" title="Nooni" class="normal-logo">
-    
-            </header>
-             <!-- header end -->
-          </div>
-      
+                  <!--header left end-->
 
-            <!--section one start-->
-            <div class="col-12 position-absolute  " id="sectionOne" style="height: 500px;">
-                <h2 class="d-flex justify-content-center position-static" style="color: rgb(255, 255, 255) ; font-size: 48px;;padding: 100px;"  >Get in touch with us. Send us a message</h2>
+                 <!--h1 > nooni-->
+                 <div class="logo">
+                  <img src="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/logo.png"width="160px" alt="Nooni" title="Nooni" class="">
+
+                </div>
+                  <!--header right--> 
+                  <div class="header-right d-flex" style="gap: 1rem;">
+            
+                    <div class="account-control">
+                      <img src="./assets/imgs/user.png" style="width: 25px;" 
+                      
+                       class="dropdown"
+                       type="" class="" 
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false"
+                         data-bs-auto-close="outside"
+
+                        data-bs-toggle="dropdown" 
+                        aria-expanded="false"
+                         data-bs-auto-close="outside">
+
+                    
+                        <form class="dropdown-menu p-4">
+                          <div class="mb-2">
+                            <label for="exampleDropdownFormEmail2" class="form-label "></label>
+                            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Username or email address">
+                          </div>
+                          <div class="mb-2">
+                            <label for="exampleDropdownFormPassword2" class="form-label"></label>
+                            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                          </div>
+                          <div class="mb-2 d-flex align-items-center justify-content-between">
+                            <button type="submit" class="btn btn-dark sign-in">Sign in</button>
+                            <div class="form-check" style="padding-left: 4rem;">
+                              <input type="checkbox" class="form-check-input p-2" id="dropdownCheck2">
+                              <label class="form-check-label p-0" for="dropdownCheck2">
+                                Remember me
+                              </label>
+                            </div>
+                          </div>
+                        </form>  
+                      </div>
+                      <img src="./assets/imgs/heart.png" alt="">
+                      <img src="./assets/imgs/shopping-cart.png" alt="">
+                    </div>
+                 
+            </header>
+        
+          </div>
+             <!-- header end -->
+              <!--sectionOne start -->
+             <div class="  sectionOne col-12 " style="background-color: #f2f2f2; height: 90vh; margin-bottom: 120px;" >
+              <div id="carouselExampleIndicators" class="  container-fluid  carousel slide " style="height: 100%; ">
+                <div class="carousel-indicators gap-3 ">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner col-12 " style="height: 100%;" >
+                  <div class="carousel-item active" style="height: 100%;">
+                    <div class="col-12   d-flex flex-wrap align-items-center justify-content-center gap-5 " style="background-color: #f2f2f2; height: 100%;" > 
+                      <div class="leftDiv " style="background-color: #f2f2f2;">
+                        <p>NEW ARRIVALS</p>
+                        <H1 style="font-size: 5rem;">Chairs & Seating </H1> <h1 style="font-size: 5rem;">You'll Love</h1>
+                        <p style="margin-bottom: 3rem;">Designer chair styles for every space - <span style="font-weight: 700;">Free shipping</span></p>
+                        <a href="" style="color: black;">SHOP  NOW</a>
+                      </div>
+                      
+
+                        <img  style="height: 636px; object-fit: contain;" src="./assets/imgs/slide-1-home1-2.png" alt="">
+              
+                    </div>
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                  </div>
+                  <div class="carousel-item" style="height: 100%;">
+                    <div class="col-12  bg-danger d-flex flex-wrap align-items-center justify-content-center gap-5 " style="height: 100%;"> 
+                      <div class="liftDiv2 bg-info">
+                        <p>SALE OFF 30 %</p>
+                        <H1 style="font-size: 5rem;">Lamps & Lighting </H1> <h1 style="font-size: 5rem;">Great Low prices</h1>
+                        <p style="margin-bottom: 3rem;">free standard shipping <span style="font-weight: 700;">with $35</span></p>
+                        <a href="" style="color: black;">SHOP  NOW</a>
+                      </div>
+                      <img style="height: 681px; object-fit: contain;" src="./assets/imgs/slide-2-home1-1.png" alt="">
+                    </div>
+                 
+                  </div>
+                  <div class="carousel-item" style="height: 100%;">
+                    <div class="col-12  bg-danger d-flex flex-wrap align-items-center justify-content-center gap-5 " style="height: 100%;"> 
+                      <div class="liftDiv3 bg-info">
+                        <p>SALE OFF 25 %</p>
+                        <H1 style="font-size: 5rem;">Discover Living </H1> <h1 style="font-size: 5rem;">Room Tables</h1>
+                        <p style="margin-bottom: 3rem;">free standard shipping <span style="font-weight: 700;">with $45</span></p>
+                        <a href="" style="color: black;">SHOP  NOW</a>
+                      </div>
+                      <img style="height: 420px; object-fit: contain;" src="./assets/imgs/slide-3-home1-1.png" alt="">
+                    </div>
+                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                  </div>
+                </div>
+              
+              </div>
             </div>
+            <!--sectionOne end -->
+      </div>
+             <!--sectionTOW start -->
+             <div class="sectionTow  " >
+             <!-- <div class="h3">  <h3>SHOP BY CATEGORY</h3>  </div> -->
+              <h1 style="margin-bottom: 43px; font-size: 25px; font-weight: 700;">SHOP BY CATEGORY</h1>
+
+         <div class="container">
+          <div class=" d-flex align-items-center justify-content-center flex-wrap bg-info">
+            <div class="col-4 col-md-3 ">
+             <div class="table d-flex align-items-center justify-content-center m-0 gap-4">
+               <img src="./assets/imgs/table-150x150.jpg" alt="" style="  border-radius: 50%; width: 160px; ">
+              <div>
+               <h4>Table</h4>
+               <p> 5 products</p>
+              </div>
+               
+             </div>
+            </div>
+          <div class="col-4 col-md-3">
+           <div class="Bed d-flex align-items-center justify-content-center  gap-4">
+             <img src="./assets/imgs/bed-150x150.jpg" alt="" style="border-radius: 50%; width: 160px; ">
+            <div>
+             <h4>Bad</h4>
+             <p> 7 products</p>
+            </div>
+             
+           </div>
+          </div>
+          <div class="col-4 col-md-3">
+           <div class="lamp d-flex align-items-center justify-content-center  gap-4">
+             <img src="./assets/imgs/lamp-1.jpg" alt="" style="border-radius: 50%; width: 160px; ">
+             <div>
+               <h4>Lamp</h4>
+             <p>7 products</p>
+             </div>
+             
+           </div>
+          </div>
+        <div class="col-4 col-md-3">
+         <div class="chair d-flex align-items-center justify-content-center gap-4">
+           <img src="./assets/imgs/chair-1-150x150.jpg" alt="" style="border-radius: 50%; width: 160px; ">
+           <div>
+             <h4>Chair</h4>
+           <p>12 products</p>
+           </div>
+           
+         </div>   
+        </div>
+            </div>
+         </div>
+              
+             </div>
+               <!--sectionTOW end -->
+
+               <!--sectionThree start -->
+             <section class="sectionthree bg-info container d-flex">
+              <div class="left">
+                <div class="topleft">
+
+                </div>
+
+                <div class="botoonleft"></div>
+              </div>
+
+              <div class="right"></div>
+             </section>
     </body>
 </html>
-but
+

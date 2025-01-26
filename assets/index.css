@@ -17,6 +17,16 @@ nav{
     font-family: "Inter", serif;
     color: rgb(163, 23, 23);
     font-size: 24px;
-
 }
 
+.carousel-indicators{justify-content: flex-start !important;}
+
+.carousel-indicators button {
+ width: 1rem !important;
+ height: 1rem !important;
+ border-radius: 50% !important;
+}
+
+.carousel-indicators button.active{
+    background-color: black !important;
+}
