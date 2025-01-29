@@ -1,9 +1,21 @@
-#sectionOne{
+#heeder{
+       padding: 31px 50px;   
+            height: 10vh;
+            z-index: 50;
+}
+/* sectionOne-start*/
+.sectionOne{
+    position: relative;
+    min-height: 90vh;
+    margin-bottom: 120px;
+}
+
+/* #sectionOne{
     background-image: url(../assets/imgs/about-2.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-}
+} */
 #offcanvasRightLabel{
     font-size: 15px;
     font-family: Inter;
@@ -15,9 +27,13 @@ nav{
     align-content: flex-start;
     gap: 20px;
     font-family: "Inter", serif;
-    color: rgb(163, 23, 23);
+    color: rgb(5, 5, 5);
     font-size: 24px;
 }
+.carousel-inner {
+    margin-top: 70px !important;
+    min-height: 600px;
+  }
 
 .carousel-indicators{justify-content: flex-start !important;}
 
@@ -30,3 +46,115 @@ nav{
 .carousel-indicators button.active{
     background-color: black !important;
 }
+.carousel-item {
+    padding: 40px 20px;
+    min-height: 400px; 
+  
+  }
+  .carousel-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .carousel-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .carousel-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .carousel-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .carousel-text h2 {
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    margin: 0;
+  }
+  
+  .carousel-text h1 {
+    font-size: clamp(2rem, 5vw, 5rem);
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .carousel-text p {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    margin: 0;
+  }
+  .carousel-text span {
+    font-weight: 700;
+  }
+  
+  .carousel-text a {
+    text-decoration: underline;
+    font-weight: 700;
+    display: inline-block;
+    transition: opacity 0.3s ease;
+  }
+  
+  @media (max-width: 425px) {
+    .section-crousaol {
+      min-height: 500px; /* Smaller minimum height for mobile */
+    }
+    
+    .carousel-inner,
+    .carousel-item {
+      min-height: 350px; /* Smaller minimum height for mobile */
+    }
+  
+    .carousel-content {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  
+    .carousel-text {
+      order: 2;
+      padding: 20px 0;
+    }
+  
+    .carousel-image {
+      order: 1;
+      text-align: center;
+    }
+  
+    .carousel-indicators {
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    /* sectionOne-end */
+    /* ---------------------------------------------------------------------------------------------------------- */
+       /* sectionTow-start*/
+  }
+  .sectionTow{
+    margin-bottom: 150px;
+  }
+ .titleSC2{
+    margin-bottom: 43px; font-size: 25px; font-weight: 700
+ }
+ .text3{
+  font-size: 60px;
+    font-weight: 400;
+ } 
+ .text3 a {
+  font-weight: 700;
+ }
+ .sectionLamp3 img {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 1;
+  padding: 0;
+  }
+  
+  .section:hover img {
+    transform: scale(1.1);
+  }
+ 

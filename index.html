@@ -1,249 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>this is my first page</title>
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-   <link rel="stylesheet" href="./assets/golobil.css">
-    <link rel="stylesheet" href="./assets/index.css">
-</head>
-    <body >
-      <div class="top container-fluid col-12">
-
-        <!-- header start -->
-          <div class="header-middle d-flex flex-wrap " style="background-color: #f2f2f2;"  >
-            <header class=" container d-flex align-items-center justify-content-between gap-4 " style="padding: 31px 0; position: sticky; width: 100%; height: 10vh; z-index: 50;" >    
-              <!--header left--> 
-              <div class="header-left d-flex " style="gap: 2rem;">
-                  <!--menu-icon start-->
-                  <div class="menu-icon  ">
-                    <img src="./assets/imgs/menu.png" width="42" height="37" alt=""
-
-                     data-bs-toggle="offcanvas"
-                      href="#offcanvasExample"  
-                      role="button"
-                       aria-controls="offcanvasExample" >
-                   
-                     <!-- </a> Link with href</a>  -->
-                     
-                     <div class="offcanvas offcanvas-start" 
-                     style="padding: 190px 68px 190px 68px; z-index: 5000;"
-                      tabindex="-1" 
-                      id="offcanvasExample"
-                       aria-labelledby="offcanvasExampleLabel position-static">
-       
-                         <nav class="text-decoration-none">
-                           <a href="">Home</a>
-                           <a href="">Shop</a>
-                           <a href="">product</a>
-                           <a href="">about us</a>
-                           <a href="">contact us</a>
-                       </nav>
-                     </div>
-                  </div>
-                  <!--menu-icon end-->
-      
-                    <!--search start-->
-                    <div class="search-icon">
-                      <img src="./assets/imgs/loupe.png "width="22" height="20" class="mt-2"
-                      
-                      type="button"
-                       data-bs-toggle="offcanvas" 
-                       data-bs-target="#offcanvasRight"
-                        aria-controls="offcanvasRight">
-                     
-                      <div class="offcanvas offcanvas-end d-flex " style="padding: 50px;"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                        <div class="offcanvas-header">
-                          <h5 class="offcanvas-title " id="offcanvasRightLabel">Search for products (0)</h5>
-                          <button type="button" class="btn-close"  data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body " >
-                          <input type="text" class=""  style="width: 100%;"
-                           placeholder="Search for products..." >
-                        </div>
-                      </div>
-                    </div>
-                   
-                   <!--search end-->
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./assets/golobil.css" />
+    <link rel="stylesheet" href="./assets/index.css" />
+  </head>
+  <body >
+    <div class="sticky-top " >
+      <!-- header start -->
+      <div
+        class="header-middle d-flex flex-wrap  "
+        style="background-color: #f2f2f2;"
+      >
+        <header id="heeder"
+          class=" container d-flex align-items-center justify-content-between gap-4  " >
+          <!--header left-->
+          <div class=" left col-4 col-md-3 col-lg-4 d-flex justify-content-start align-i" style="gap: 1rem">
+            <!--menu-icon start-->
+            <div class="menu-icon">
+              <img
+                src="./assets/imgs/menu.png"
+                width="42"
+                height="37"
+                alt=""
+                data-bs-toggle="offcanvas"
+                href="#offcanvasExample"
+                role="button"
+                aria-controls="offcanvasExample"
+              />
+              <!-- </a> Link with href</a>  -->
+              
+              
+              <div
+              class="offcanvas offcanvas-start"
+              style="padding: 190px 68px 190px 68px; z-index: 5000"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel position-static"
+              >
+              
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
               </div>
-                  <!--header left end-->
-
-                 <!--h1 > nooni-->
-                 <div class="logo">
-                  <img src="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/logo.png"width="160px" alt="Nooni" title="Nooni" class="">
-
-                </div>
-                  <!--header right--> 
-                  <div class="header-right d-flex" style="gap: 1rem;">
-            
-                    <div class="account-control">
-                      <img src="./assets/imgs/user.png" style="width: 25px;" 
-                      
-                       class="dropdown"
-                       type="" class="" 
-                        data-bs-toggle="dropdown" 
-                        aria-expanded="false"
-                         data-bs-auto-close="outside"
-
-                        data-bs-toggle="dropdown" 
-                        aria-expanded="false"
-                         data-bs-auto-close="outside">
-
-                    
-                        <form class="dropdown-menu p-4">
-                          <div class="mb-2">
-                            <label for="exampleDropdownFormEmail2" class="form-label "></label>
-                            <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="Username or email address">
-                          </div>
-                          <div class="mb-2">
-                            <label for="exampleDropdownFormPassword2" class="form-label"></label>
-                            <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
-                          </div>
-                          <div class="mb-2 d-flex align-items-center justify-content-between">
-                            <button type="submit" class="btn btn-dark sign-in">Sign in</button>
-                            <div class="form-check" style="padding-left: 4rem;">
-                              <input type="checkbox" class="form-check-input p-2" id="dropdownCheck2">
-                              <label class="form-check-label p-0" for="dropdownCheck2">
-                                Remember me
-                              </label>
-                            </div>
-                          </div>
-                        </form>  
-                      </div>
-                      <img src="./assets/imgs/heart.png" alt="">
-                      <img src="./assets/imgs/shopping-cart.png" alt="">
-                    </div>
-                 
-            </header>
-        
-          </div>
-             <!-- header end -->
-              <!--sectionOne start -->
-             <div class="  sectionOne col-12 " style="background-color: #f2f2f2; height: 90vh; margin-bottom: 120px;" >
-              <div id="carouselExampleIndicators" class="  container-fluid  carousel slide " style="height: 100%; ">
-                <div class="carousel-indicators gap-3 ">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner col-12 " style="height: 100%;" >
-                  <div class="carousel-item active" style="height: 100%;">
-                    <div class="col-12   d-flex flex-wrap align-items-center justify-content-center gap-5 " style="background-color: #f2f2f2; height: 100%;" > 
-                      <div class="leftDiv " style="background-color: #f2f2f2;">
-                        <p>NEW ARRIVALS</p>
-                        <H1 style="font-size: 5rem;">Chairs & Seating </H1> <h1 style="font-size: 5rem;">You'll Love</h1>
-                        <p style="margin-bottom: 3rem;">Designer chair styles for every space - <span style="font-weight: 700;">Free shipping</span></p>
-                        <a href="" style="color: black;">SHOP  NOW</a>
-                      </div>
-                      
-
-                        <img  style="height: 636px; object-fit: contain;" src="./assets/imgs/slide-1-home1-2.png" alt="">
-              
-                    </div>
-                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                  </div>
-                  <div class="carousel-item" style="height: 100%;">
-                    <div class="col-12  bg-danger d-flex flex-wrap align-items-center justify-content-center gap-5 " style="height: 100%;"> 
-                      <div class="liftDiv2 bg-info">
-                        <p>SALE OFF 30 %</p>
-                        <H1 style="font-size: 5rem;">Lamps & Lighting </H1> <h1 style="font-size: 5rem;">Great Low prices</h1>
-                        <p style="margin-bottom: 3rem;">free standard shipping <span style="font-weight: 700;">with $35</span></p>
-                        <a href="" style="color: black;">SHOP  NOW</a>
-                      </div>
-                      <img style="height: 681px; object-fit: contain;" src="./assets/imgs/slide-2-home1-1.png" alt="">
-                    </div>
-                 
-                  </div>
-                  <div class="carousel-item" style="height: 100%;">
-                    <div class="col-12  bg-danger d-flex flex-wrap align-items-center justify-content-center gap-5 " style="height: 100%;"> 
-                      <div class="liftDiv3 bg-info">
-                        <p>SALE OFF 25 %</p>
-                        <H1 style="font-size: 5rem;">Discover Living </H1> <h1 style="font-size: 5rem;">Room Tables</h1>
-                        <p style="margin-bottom: 3rem;">free standard shipping <span style="font-weight: 700;">with $45</span></p>
-                        <a href="" style="color: black;">SHOP  NOW</a>
-                      </div>
-                      <img style="height: 420px; object-fit: contain;" src="./assets/imgs/slide-3-home1-1.png" alt="">
-                    </div>
-                    <!-- <img src="..." class="d-block w-100" alt="..."> -->
-                  </div>
-                </div>
-              
+                <nav class="text-decoration-none">
+                  <a class="text-dark" href="">Home</a>
+                  <a class="text-dark" href="">Shop</a>
+                  <a class="text-dark" href="">product</a>
+                  <a class="text-dark" href="">about us</a>
+                  <a class="text-dark" href="">contact us</a>
+                </nav>
               </div>
             </div>
-            <!--sectionOne end -->
+            <!--menu-icon end-->
+
+            <!--search start-->
+            <div class="search-icon">
+              <img
+                src="./assets/imgs/loupe.png "
+                width="22"
+                height="20"
+                class="mt-2"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              />
+
+              <div
+                class="offcanvas offcanvas-end d-flex"
+                style="padding: 50px"
+                tabindex="-1"
+                id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                    Search for products (0)
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <input
+                    type="text"
+                    class=""
+                    style="width: 100%"
+                    placeholder="Search for products..."
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!--search end-->
+          </div>
+          <!--header left end-->
+
+        <!--header center-->
+          <div class="logo col-4 col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+            <img
+              src="https://nooni-be87.kxcdn.com/nooni/wp-content/themes/nooni/images/logo.png"
+              width="200"
+              alt="Nooni"
+              title="Nooni"
+              class="img-fluid"
+            />
+          </div>
+          <!--header right-->
+          <div class="right col-4 col-md-3 col-lg-4 d-flex justify-content-end align-items-center gap-3">
+            <div class="account-control d-none d-md-flex d-lg-flex">
+              <img
+                src="./assets/imgs/user.png"
+                style="width: 25px"
+                class="dropdown"
+                type=""
+                class=""
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              />
+
+              <form class="dropdown-menu p-4">
+                <div class="mb-2">
+                  <label
+                    for="exampleDropdownFormEmail2"
+                    class="form-label"
+                  ></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleDropdownFormEmail2"
+                    placeholder="Username or email address"
+                  />
+                </div>
+                <div class="mb-2">
+                  <label
+                    for="exampleDropdownFormPassword2"
+                    class="form-label"
+                  ></label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleDropdownFormPassword2"
+                    placeholder="Password"
+                  />
+                </div>
+                <div
+                  class="mb-2 d-flex align-items-center justify-content-between"
+                >
+                  <button type="submit" class="btn btn-dark sign-in">
+                    Sign in
+                  </button>
+                  <div class="form-check" style="padding-left: 4rem">
+                    <input
+                      type="checkbox"
+                      class="form-check-input p-2"
+                      id="dropdownCheck2"
+                    />
+                    <label class="form-check-label p-0" for="dropdownCheck2">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <img src="./assets/imgs/heart.png" alt="" />
+            <img src="./assets/imgs/shopping-cart.png" alt="" />
+          </div>
+        </header>
       </div>
-             <!--sectionTOW start -->
-             <div class="sectionTow  " >
-             <!-- <div class="h3">  <h3>SHOP BY CATEGORY</h3>  </div> -->
-              <h1 style="margin-bottom: 43px; font-size: 25px; font-weight: 700;">SHOP BY CATEGORY</h1>
+    </div>
+    <div class="top container-fluid p-0 " style="background-color: #f2f2f2;">
+      <!-- header end -->
+      <!--sectionOne start -->
+      <section  class="sectionOne container">
+        <div 
+          id="carouselExampleIndicators"
+          class="carousel slide d-flex"
+          data-bs-ride="carousel" >
 
-         <div class="container">
-          <div class=" d-flex align-items-center justify-content-center flex-wrap bg-info">
-            <div class="col-4 col-md-3 ">
-             <div class="table d-flex align-items-center justify-content-center m-0 gap-4">
-               <img src="./assets/imgs/table-150x150.jpg" alt="" style="  border-radius: 50%; width: 160px; ">
-              <div>
-               <h4>Table</h4>
-               <p> 5 products</p>
-              </div>
-               
-             </div>
-            </div>
-          <div class="col-4 col-md-3">
-           <div class="Bed d-flex align-items-center justify-content-center  gap-4">
-             <img src="./assets/imgs/bed-150x150.jpg" alt="" style="border-radius: 50%; width: 160px; ">
-            <div>
-             <h4>Bad</h4>
-             <p> 7 products</p>
-            </div>
-             
-           </div>
+          <div class="carousel-indicators gap-3 position-absolute bottom-0 left-0">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              style="border: 3px solid rgb(0, 0, 0)"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              style="border: 3px solid rgb(0, 0, 0)"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              style="border: 3px solid rgb(0, 0, 0)"
+              aria-label="Slide 3"
+            ></button>
           </div>
-          <div class="col-4 col-md-3">
-           <div class="lamp d-flex align-items-center justify-content-center  gap-4">
-             <img src="./assets/imgs/lamp-1.jpg" alt="" style="border-radius: 50%; width: 160px; ">
-             <div>
-               <h4>Lamp</h4>
-             <p>7 products</p>
-             </div>
-             
-           </div>
-          </div>
-        <div class="col-4 col-md-3">
-         <div class="chair d-flex align-items-center justify-content-center gap-4">
-           <img src="./assets/imgs/chair-1-150x150.jpg" alt="" style="border-radius: 50%; width: 160px; ">
-           <div>
-             <h4>Chair</h4>
-           <p>12 products</p>
-           </div>
-           
-         </div>   
-        </div>
-            </div>
-         </div>
-              
-             </div>
-               <!--sectionTOW end -->
-
-               <!--sectionThree start -->
-             <section class="sectionthree bg-info container d-flex">
-              <div class="left">
-                <div class="topleft">
-
+  
+          <div class="carousel-inner d-flex align-items-center mt-5">
+            <div class="carousel-item active">
+              <div class="carousel-content">
+                <div class="carousel-text">
+                  <h2>NEW ARRIVALS</h2>
+                  <h1>Chairs & Seating You'll Love</h1>
+                  <p>
+                    Designer chair styles for every space -
+                    <span>Free Shipping</span>
+                  </p>
+                  <a href="#" class="text-black">SHOP NOW</a>
                 </div>
-
-                <div class="botoonleft"></div>
+                <div class="carousel-image">
+                  <img
+                    src="./assets/imgs/slide-1-home1-2.png"
+                    alt="Slide 1"  />
+                </div>
               </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <div class="carousel-text">
+                  <h2>NEW ARRIVALS</h2>
+                  <h1>Chairs & Seating You'll Love</h1>
+                  <p>
+                    Designer chair styles for every space -
+                    <span>Free Shipping</span>
+                  </p>
+                  <a href="#" class="text-black">SHOP NOW</a>
+                </div>
+                <div class="carousel-image">
+                  <img
+                    src="./assets/imgs/slide-2-home1-1.png"
+                    alt="Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <div class="carousel-text">
+                  <h2>NEW ARRIVALS</h2>
+                  <h1>Chairs & Seating You'll Love</h1>
+                  <p>
+                    Designer chair styles for every space -
+                    <span>Free Shipping</span>
+                  </p>
+                  <a href="#" class="text-black">SHOP NOW</a>
+                </div>
+                <div class="carousel-image">
+                  <img
+                    src="./assets/imgs/slide-3-home1-1.png"
+                    alt="Slide 1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+      <!--sectionOne end -->
+   
+    <!--sectionTOW start -->
+    <section>
+      <div class="sectionTow container ">
+        
+        <h1 class="titleSC2 text-center text-md-start" >
+          SHOP BY CATEGORY
+        </h1>
+        <div class="row align-items-center">
+          <div class="col-6 col-md-3">
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center m-0 gap-4"
+            >
+              <img
+                src="./assets/imgs/table-150x150.jpg"
+                alt=""
+                style="border-radius: 50%; width: 160px"
+              />
+              <div>
+                <h4>Table</h4>
+                <p>5 products</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center gap-4"
+            >
+              <img
+                src="./assets/imgs/bed-150x150.jpg"
+                alt=""
+                style="border-radius: 50%; width: 160px"
+              />
+              <div>
+                <h4>Bad</h4>
+                <p>7 products</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center gap-4"
+            >
+              <img
+                src="./assets/imgs/lamp-1.jpg"
+                alt=""
+                style="border-radius: 50%; width: 160px"
+              />
+              <div>
+                <h4>Lamp</h4>
+                <p>7 products</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-center gap-4"
+            >
+              <img
+                src="./assets/imgs/chair-1-150x150.jpg"
+                alt=""
+                style="border-radius: 50%; width: 160px"
+              />
+              <div>
+                <h4>Chair</h4>
+                <p>12 products</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--sectionTOW end -->
 
-              <div class="right"></div>
-             </section>
-    </body>
+    <!--sectionThree start -->
+    
+    <section >
+      <div class="sectionthree container">
+
+        <div class="row g-4 ">
+          <!-- Div-left -->
+          <div class="col-12 col-md-6">
+            <div class="row gap-4">
+              <!-- Div-lamp -->
+               <div class="sectionLamp3  position-relative">
+                <div class="text3">
+                  <h3>Up To 40% Off <br> Top Lamp Brand</h3>
+                  <a class="text-dark" href="">SHOP NOW</a>
+                </div>
+                <img  src="./assets/imgs/banner-0-removebg-preview (1).png" alt="">
+               </div>
+            </div>
+          </div>
+          <!-- Div-right -->
+          <div class="col-12 col-md-6"></div>
+          <!-- Div botoon -->
+          <div class="col-12 mt-4"></div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
-
