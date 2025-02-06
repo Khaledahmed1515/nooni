@@ -11,11 +11,12 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -199,16 +200,16 @@
         </header>
       </div>
     </div>
-    <div class="top container-fluid p-0 " style="background-color: #f2f2f2;">
+    <div class="top container-fluid p-0  " style="background-color: #f2f2f2;" >
       <!-- header end -->
-      <!--sectionOne start -->
-      <section  class="sectionOne container">
+      <!--section-1 start -->
+      <section  class="sectionOne container"  >
         <div 
           id="carouselExampleIndicators"
           class="carousel slide d-flex"
           data-bs-ride="carousel" >
 
-          <div class="carousel-indicators gap-3 position-absolute bottom-0 left-0">
+          <div class="carousel-indicators gap-3">
             <button
               type="button"
               data-bs-target="#carouselExampleIndicators"
@@ -297,9 +298,9 @@
         </div>
       </section>
     </div>
-      <!--sectionOne end -->
+      <!--section-1 end -->
    
-    <!--sectionTOW start -->
+    <!--section-2 start -->
     <section>
       <div class="sectionTow container ">
         
@@ -370,33 +371,600 @@
         </div>
       </div>
     </section>
-    <!--sectionTOW end -->
+    <!--section-2 end -->
 
-    <!--sectionThree start -->
+    <!--section-3 start -->
     
     <section >
       <div class="sectionthree container">
 
-        <div class="row g-4 ">
+        <div class="row g-4  ">
           <!-- Div-left -->
-          <div class="col-12 col-md-6">
-            <div class="row gap-4">
+          <div class=" DivleftSC3 col-12 col-md-6 gap-4">
+            <div class="row ">
               <!-- Div-lamp -->
-               <div class="sectionLamp3  position-relative">
-                <div class="text3">
-                  <h3>Up To 40% Off <br> Top Lamp Brand</h3>
-                  <a class="text-dark" href="">SHOP NOW</a>
-                </div>
-                <img  src="./assets/imgs/banner-0-removebg-preview (1).png" alt="">
+               <div class=" leftTop col-12">
+
+                 <div class="sectionLamp3  ">
+                  <div class="text3">
+                    <h3>Up To 40% Off <br> Top Lamp Brands</h3>
+                    <a class="text-dark" href="">SHOP NOW</a>
+                  </div>
+                  <img  src="./assets/imgs/banner-0-removebg-preview (1).png" alt="">
+                 </div>
                </div>
+               <!-- Div-cabnet -->
+                <div class="leftBotoon col-12">
+                  <div class="sectionCbnit3">
+                    <div class="text">
+                      <p>NEW PRODUCTS</p>
+                      <h3>Up To 25% Off Cabinets</h3>
+                      <a class="text-dark fw-bold" href="">SHOP NOW</a>
+                    </div>
+                    <img class="img-fluid" src="./assets/imgs/tabl-1.jpg" alt=""   >
+                  </div>
+                </div>
             </div>
           </div>
           <!-- Div-right -->
-          <div class="col-12 col-md-6"></div>
+          <div class=" DivRightSC3 col-12 col-md-6 gap-4">
+            <div class="DivDisk h-100 d-flex justify-content-center">
+              <div class="textleft">
+                <p class="text-light">BIG SALE</p>
+                <h1>Up to 70 % Off</h1>
+                <H1> Furniture & Decor</H1>
+                <a class="text-light mt-4" href="">SHOP NOW</a>
+              </div>
+              <img src="./assets/imgs/banner-2.jpg" alt="">
+            </div>
+          </div>
           <!-- Div botoon -->
-          <div class="col-12 mt-4"></div>
+          <div class="  col-12 mt-4 ">
+            <div class=" DIVBOTOON col-12">
+              <div class="textBotoon d-flex align-items-center">
+                <h1>10%</h1>
+                <div class=" d-flex flex-column align-items-center d-md-flex flex-md-column align-items-md-start">
+
+                  <h2>Get More Pay Less</h2>
+                  <p class="d-flex flex-column align-items-center flex-md-row">On orders $500 + Use Coupon Code :  <span class="fw-bold"> WSD10</span></p>
+                </div>
+              </div>
+                <img class="w-100" src="./assets/imgs/banner-3-removebg-preview.png" alt="">
+              
+            </div>
+          </div>
         </div>
       </div>
     </section>
+      <!--section-3 end -->
+
+      <!-- section-4 start -->
+    <section>
+      <div class="container mt-5 pe-0">
+        <div class=" row col-12 g-4 d-flex flex-wrap ">
+              <!-- Title Section  -->
+              <div class="col-12 col-lg-3 d-lg-flex align-items-lg-center">
+                <div class="title-section text-center text-lg-start">
+                  <div>
+                    <h2 class="mb-2 mb-lg-3 text-dark fw-medium Title-Section">Best Modern Furniture</h2>
+                    <a href="#" class="see-all d-none d-lg-block text-dark mt-5 "> See All >> </a>
+                  </div>
+                </div>
+              </div>
+               <!-- product-1 -->
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro1"> 
+                  <div class="HOT d-flex gap-2">
+                    <p class="text-white bg-danger mt-3 d-flex justify-content-center">HOT</p>
+                    <p class="text-white bg-dark mt-3  d-flex justify-content-center">SALE</p>
+                  </div>
+
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold"> Select options</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <p class="mt-3" >Wood Outdoor Adirondack Chair</p>
+                <div class="d-flex gap-2">
+                  <p class=" fw-bold" >$1,009</p>
+                  <p class=" ms-2 fw-light " style="text-decoration: line-through;" >$1,259</p>
+                </div>
+               </div>
+                 <!-- product-2 -->
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro2"> 
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold">ADD To CART</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p  class="mt-3">Solid Wood Bar Storage Cabinet</p>
+                <p class="fw-bold">$1,899</p>
+               </div>
+                 <!-- product-3 --> 
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro3"> 
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold">Select options</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3"> Solid Wood Bed With Fabric Headboard</p>
+                <p class="fw-bold">$3,707 - $5,707</p>
+               </div>
+                 <!-- product-4 -->
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro4"> 
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold">READ MORY</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3">Floor Lamp With Polyester Shade</p>
+                <p class="fw-bold">$399</p>
+               </div>
+                 <!-- product-5 -->
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro5"> 
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold">ADD To CART</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3">Garden Chair With Armrests</p>
+                <p class="fw-bold">$1,009</p>
+               </div>
+                 <!-- product-6 -->
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro6"> 
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold">ADD To CART</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3">Led Steel Floor Lamp</p>
+                <div class="d-flex gap-2">
+                  <p class="fw-bold">$299</p>
+                  <p style="text-decoration: line-through;">$429</p>
+                </div>
+               </div>
+                 <!-- product-7 -->
+               <div class="col-6 col-md-4 col-lg-3 ">
+                <div class="product col-12" id="pro7"> 
+                  <h1  class=" botn col-12 btn accordion-item  " ><p class="my-2 fw-bold">ADD To CART</p></h1> 
+                  <div class="contenr-icons">
+                    <div class="cont-heart">
+                      <div class="text-iconHV">
+                        <div class="text-icon"><p>Wishlist</p></div>
+                      </div>
+                      <div class="icons">
+                        <div class="svg ">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-3 -3 30 30">
+                            <path fill="currentColor"
+                             d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z"/> </svg>  
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont2">
+                      <div class="cont-EOS ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Compare</p></div>
+                        </div>
+                        <div class="icons  ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                              <path fill="currentColor" d="m10 15l-1.414 1.414L10.172 18H5V7.816a3 3 0 1 0-2 0V18a2 2 0 0 0 2 2h5.172l-1.586 1.586L10 23l4-4ZM4 6a1 1 0 1 1 1-1a1 1 0 0 1-1 1m17 10.184V6a2 2 0 0 0-2-2h-5.172l1.586-1.586L14 1l-4 4l4 4l1.414-1.414L13.828 6H19v10.184a3 3 0 1 0 2 0M20 20a1 1 0 1 1 1-1a1 1 0 0 1-1 1"/></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cont3">
+                      <div class="cont-search ">
+                        <div class="text-iconHV">
+                          <div class="text-icon"><p>Quick view</p></div>
+                        </div>
+                        <div class="icons ">
+                          <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1"><circle cx="11" cy="11" r="5.5"/><path stroke-linecap="round" stroke-linejoin="round" d="m15 15l4 4"/></g></svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mt-3">Teak Garden Chair With Armrests</p>
+                <p class="fw-bold">$999</p>
+               </div>
+      </div>
+      </div>
+    </div>
+    </section>
+     <!-- section-4 end -->
+
+     <!-- section-5 start -->
+    <section class="our-blog mt-5">
+      <div class="container">
+        <div class="position-relative bg-white text-dark m-0 p-0">
+          <swiper-container class="mySwiper w-100" navigation="true">
+            <swiper-slide>
+              <div class="row g-5 position-relative">
+                <div class="col-12 col-md-6">
+                  <img class="w-100" src="./assets/imgs/blog-1-1174x862.jpg" alt="">
+                  <span class="date">JAN 9, 2025</span>
+                  <div class="author"><img src="./assets/imgs/f458ff8b61e871611d3de680ec718a03.jpeg" alt="Author"></div>
+                  
+                </div> 
+
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center">
+                  <p>Furniture, Table </p>
+                  <h4 class="fw-normal fs-2">The Secrets to a Living Room that Draws You In </h4>
+                  <p class="fs-5 fw-normal">
+                    Nunc ut sem ut ex sollicitudin commodo. <br> 
+                   Suspendisse non enim felis. Nam nec diam <br>
+                    ultricies, malesuada
+                  </p>
+                    <a class="text-dark fw-bold" href="">READ MORY </a>
+                </div>
+                <div class="col-12 col-lg-2 d-none d-lg-block">
+                  <img class="w-100" src="./assets/imgs/blog-2-1174x862.jpg" alt="">
+                </div> 
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="row g-5 position-relative">
+                <div class="col-12 col-md-6">
+                  <img class="w-100" src="./assets/imgs/blog-2-1174x862.jpg" alt="">
+                  <span class="date">JAN 9, 2025</span>
+                  <div class="author"><img src="./assets/imgs/f458ff8b61e871611d3de680ec718a03.jpeg" alt="Author"></div>
+                </div> 
+                <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-center">
+                  <p>Furniture, Table </p>
+                  <h4 class="fw-normal fs-2">The Secrets to a Living Room that Draws You In </h4>
+                  <p class="fs-5 fw-normal">
+                    Nunc ut sem ut ex sollicitudin commodo. <br> 
+                   Suspendisse non enim felis. Nam nec diam <br>
+                    ultricies, malesuada
+                  </p>
+                    <a class="text-dark fw-bold" href="">READ MORY </a>
+                </div>
+                <div class="col-12 col-lg-2 d-none d-lg-block">
+                  <img class="w-100" src="./assets/imgs/blog-1-1174x862.jpg" alt="">
+                </div> 
+              </div>
+            </swiper-slide>
+        </div>
+      </div>
+    </section>
+    <!-- section-5 end -->
+
+    <!-- section-6-video start -->
+    <section>
+  <div class="mt-5">
+    <div class="DIV-video">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        class="background-video h-0"
+      >
+        <source
+          src="./assets/imgs/Pexels-Karolina-Grabowska-7708902-4096X2160-25Fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="Wood-overlay">
+        <h1> W O O D </h1>
+      </div>
+    </div>
+  </div>
+    </section>
+    <!-- section-6-video end -->
+
+    <!-- footer-start -->
+     <footer class="container">
+      <div class="row mt-5">
+
+        <div class="cont1 col-12  col-md-4 col-lg-4 col-xl-3 ">
+          <img class="mb-4" src="./assets/imgs/logo.png" alt="">
+          <p class="text-footer" > Text: +00(234)23-45-666</p>
+          <p class="text-footer"> Mon – Fri: 8 am – 8 pm </p>
+          <p class="text-footer"> Sat – Sun: 8 am – 7 pm</p>
+        </div>
+          <div class="contcenter col-12 col-md-8 col-xl-5 row">
+            <div class="cont2 col-6 d-block">
+              <h5 class="mb-4 fw-bold fs-6">ABOUT</h5>
+              <ul class="footer-links">
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Influencers</a></li>
+                <li><a href="#">Join our team</a></li>
+              </ul>
+            </div>
+            <div class="cont3 col-6 d-block">
+              <h5 class="mb-4 fw-bold fs-6">CUSTOMER SERVICES</h5>
+              <ul class="footer-links">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Find Store</a></li>
+                <li><a href="#">Book appointment</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="cont4 col-12 col-xl-4 ">
+            <div class="text-footer">
+
+              <h5 class="mb-4">SIGN UP FOR EMAILS</h5>
+              <p class="text-footer mb-4">
+                Enjoy 15% off* your first order when sign up to our newsletter
+              </p>
+            </div>
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your e-mail address"
+                  required
+                />
+                <button class="btn btn-Subscribe" type="submit">
+                 SUBSCRIBE
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- ************************************** -->
+        </div>
+      </footer>
+      <div class="row border-top pt-4">
+        <div class="col-lg-4 col-12 order-2 order-md-1">
+          <div class="footer-bottom-links d-flex justify-content-center mb-4">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Help</a>
+            <a href="#">FAQs</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 text-center order-1 order-md-2">
+          <p class="copyright">© Nooni. All Rights Reserved.</p>
+        </div>
+        <div
+          class="col-lg-4 col-12 text-center text-lg-end  order-3 footerB-img" >
+          <img
+            src="./assets/imgs/payment.png"
+            alt="Payment Methods"
+          />
+        </div>
+      </div>
+ <h1>   
+   
+   
+   
+   
+ </h1>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   </body>
 </html>
